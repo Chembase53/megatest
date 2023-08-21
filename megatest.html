@@ -5,11 +5,12 @@
 </head>
 <body>
 <script>
+// Your JavaScript code here
 function generateScrambles() {
   const types = ["↰", "↱", "↲", "↳"];
   const type = 1; // Always WCA fixed U*
   const count = 100; // Always generate 100 scrambles
-  
+
   let output = '';
   for (let ii = 0; ii < count; ii++) {
     for (let j = 0; j < 7; j++) {
@@ -36,7 +37,7 @@ function generateScrambles() {
     }
     output += "\\n";
   }
-  
+
   return output;
 }
 
